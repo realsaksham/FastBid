@@ -1,0 +1,40 @@
+.AuctionCard-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.AuctionCard-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px;
+    padding: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    width:80%;
+    background-color: antiquewhite;
+}
+.AuctionCard-box img{
+    max-height: 40vh;
+}
+.auction-card-heading{
+    color:blanchedalmond;
+    margin-top: 30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.auction-card-heading-box{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.back{
+    color: white;
+    font-size: 20px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.back:hover{
+    color: rgb(0, 204, 255);
+    cursor: pointer;
+}

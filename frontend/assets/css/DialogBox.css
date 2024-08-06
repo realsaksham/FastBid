@@ -1,0 +1,54 @@
+#sellbutton{
+  color: black;
+  font-weight: bold;
+  border: none;
+    position: fixed;
+    bottom: 50px;
+    right: 40px;
+    background-color: rgb(228, 147, 8);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/* Style for input fields inside the modal */
+.modal-body input[type="text"],
+.modal-body input[type="number"],
+.modal-body input[type="file"] {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  box-sizing: border-box;
+}
+
+/* Style for the file input */
+.modal-body input[type="file"] {
+  padding: 0;
+}
+
+/* Style for the modal footer buttons */
+.modal-footer button {
+  color: black;
+  border: none;
+  background-color: rgb(228, 147, 8);
+  margin-right: 0.5rem;
+}
+
+.uploaded_item_image{
+  box-shadow:2px 2px 2px 2px orange;
+  width:100px;
+}
+
+.StickyNote{
+  background-color: rgba(250, 235, 215,0.4);
+  padding: 7px;
+  border-radius: 10px;
+  position: absolute;
+  font-family: "Comic Sans MS", cursive;
+  left:30;
+  width:25vw;
+  color:aliceblue;
+  transition: 0.3s;
+}
+.StickyNote:hover {
+  transform: scale(1.04);
+} 

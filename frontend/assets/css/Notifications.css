@@ -1,0 +1,55 @@
+.flex-container1 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* Align items to the start */
+  height: 100vh;
+}
+
+.box {
+  background-color: #f3f3f3; /* Light gray */
+  width: 40%;
+  border-radius: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  height: 70vh;
+  margin-top: 30px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heading {
+  text-align: center;
+}
+
+.notifiBox {
+  background-color: #ffffff; /* White */
+  border: 3px solid #000000; /* Black */
+  border-radius: 20px;
+  width: 90%;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+
+.transactionBox {
+  border-bottom: 3px solid black;
+  width: 90%;
+}
+
+.row1{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.name1{
+  font-size: 20px;
+}
+
+.date{
+  text-align: right;
+  font-size: 12px;
+}
+

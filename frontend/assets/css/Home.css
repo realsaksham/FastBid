@@ -1,0 +1,68 @@
+/* Home.css */
+.page-container {
+    height: 100%;
+    min-height: 100vh;
+    background-color: rgb(78, 73, 73);
+}
+
+header {
+    display: flex;
+    height: 13vh;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(228, 147, 8);
+    padding: 10px 20px;
+}
+
+.navigation {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.navigation li {
+    margin: 0 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    transition: transform 0.3s ease; 
+}
+
+.navigation li:hover {
+    transform: scale(1.2); 
+    cursor: pointer;
+}
+
+.footer-container {
+    background-color: rgb(228, 147, 8);
+    color: rgb(78, 73, 73);
+    text-align: center;
+    padding: 10px;
+}
+#dropdown-box-button{
+    background-color: rgb(228, 147, 8);
+    border: none;
+    color: black;
+}
+.crausel{
+    width:38vw;
+}
+
+.HomeBody{
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    color: white;
+}
