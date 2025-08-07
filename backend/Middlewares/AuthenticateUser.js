@@ -46,3 +46,5 @@ const fetchuser = (req, res, next) => {
 //exporting the module fetchuser function
 module.exports = fetchuser
 
+
+
